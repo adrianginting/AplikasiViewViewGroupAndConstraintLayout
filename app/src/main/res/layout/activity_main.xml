@@ -12,14 +12,12 @@
 
     <Button
         android:id="@+id/btn_view_and_view_group"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/ButtonGeneral.ViewButton"
         android:text="View and View Group" />
 
     <Button
         android:id="@+id/btn_constrain_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/ButtonGeneral.ConstrainButt"
         android:text="Constrain Layout" />
 
 </LinearLayout>

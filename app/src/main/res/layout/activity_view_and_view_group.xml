@@ -23,8 +23,7 @@
                 android:src="@drawable/pixel_google" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextContent.Small.White"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
                 android:textColor="@color/white"
                 android:layout_gravity="bottom"
@@ -40,38 +39,25 @@
         </FrameLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            style="@style/TextContent"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
             android:text="@string/dummy_value"
             android:textSize="32sp" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            style="@style/TextContent.Subtitle"
             android:layout_marginBottom="16dp"
-            android:text="@string/stock"
-            android:textSize="12sp" />
+            android:text="@string/stock" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            style="@style/TextContent"
             android:layout_marginBottom="16dp"
             android:lineSpacingMultiplier="1"
             android:text="@string/content_text" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            style="@style/TextContent.Subtitle"
             android:layout_marginBottom="8dp"
             android:text="@string/specification"
             android:textSize="12sp" />
@@ -89,17 +75,11 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:text="@string/display"
-                    android:textSize="14sp" />
+                    style="@style/TextSpec.Field"
+                    android:text="@string/display" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:layout_weight="1"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_display" />
             </TableRow>
 
@@ -109,17 +89,11 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:text="@string/size"
-                    android:textSize="14sp" />
+                    style="@style/TextSpec.Field"
+                    android:text="@string/size"/>
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:layout_weight="1"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_size" />
             </TableRow>
 
@@ -129,19 +103,18 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:text="@string/battery"
-                    android:textSize="14sp" />
+                    style="@style/TextSpec.Field"
+                    android:text="@string/battery" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:layout_weight="1"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_battery" />
             </TableRow>
+
+            <TextView
+                style="@style/TextContent.Subtitle"
+                android:text="@string/seller"
+                android:layout_marginBottom="8dp"/>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -159,8 +132,7 @@
                     android:src="@drawable/pixel_google" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/TextContent"
                     android:layout_centerVertical="true"
                     android:layout_toEndOf="@+id/profile_image"
                     android:text="@string/my_name" />
@@ -168,11 +140,7 @@
 
             <Button
                 android:text="@string/buy"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="16dp" />
+                style="@style/ButtonGeneral" />
 
         </TableLayout>
 
